@@ -12,25 +12,32 @@
     flex-direction: column;
     justify-content: space-between;
     height:100vh;
-    width: 15vw;
+    min-width: 15vw;
     background-color: #ffffff;
+    
+
 }
 .profileinfo{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #ffffff;
-    height: 20%;
+  
+
+    height: 14em;
   
 }
 .profileinfo h1{
     margin-bottom: 10%;
     
 }
+.profileinfo img{
+    margin-bottom: -2em;
+}
 .profileinfo h2{
     display: flex;
     text-align: center;
+    margin-top: 2em;
 }
 .profileinfo p{
     color:#919191;
@@ -42,7 +49,8 @@
     align-items: center;
     justify-content: space-around;
     height: 35%;
-    background-color: #ffffff;
+   
+
 }
 .sidebarnav button{
     display: flex;
@@ -82,7 +90,7 @@
     height: 25%;
 }
 .bottomsidebar{
-    background-color: #ffffff;
+
     height: 45%;
     display: flex;
     align-items: end;
@@ -99,11 +107,14 @@
     background-color: #f4f2ee;
     height: 100vh;
     width: 100%;
+    padding-left: 0.5em;
 }
 .header{
-    height: 20%;
+
+    height: 18em;
     display: flex;
     justify-content: space-around;
+
 }
 .headerleft{
     width: 100%;
@@ -122,14 +133,15 @@
     height: 100%;
 }
 .form{
+    
     display:flex ;
     align-items: center;
     justify-content: start;
 
   
     margin-bottom: 3%;
-    height: 15%;
-    width:25% ;
+    height: 2.4em;
+    width:15em ;
     border-radius: 8px;
     overflow: hidden;
     border: 2px solid #febd2f;
@@ -194,40 +206,84 @@
 
 }
 .foodcarousel{
-    background-color: aqua;
+  
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding-left: 2%;
     gap: 2%;
-    height: 35%;
+    height: 30em;
 
 }
 .carouselcard{
-    overflow: hidden;
-    background-color: pink;
-    height: 70%;
-    width: 15%;
+   
+    background-color: white;
+    height: 80%;
+    width: 20%;
     border-radius: 20px;
     display: flex;
     align-items: end;
     justify-content: center;
+    position: relative;
+    margin-top: 2em;
+}
+.carouselimagecontainer{
+    border:2px solid black;
+    border-radius: 50%;
+    top:-5em;
+    width: 12em;
+    height: 12em;
+    background-color: white;
+    position: absolute
 }
 .bottomcarouselcard{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 50%;
+    height: 60%;
+    border-radius: 20px;
+    overflow: hidden;
     width: 100%;
-    background-color: green;
+
+}
+.bottomcarouselcard hr{
+    border-right: 30em solid #f4f4f4;
 }
 .bottomcarouselcard div{
     display: flex;
-    justify-content: space-around;
-    background-color: red;
+    justify-content: space-evenly;
+    margin-top: -1em;
+ 
+    align-items: center;
     width: 100%;
 }
+.bottomcarouselcard div p{
+    color: #919191;
+
+
+}
+
+
+.bottomcarouselcard div button{
+    background-color: #e9f9f1;
+    width: 10em;
+    height: 3em;
+    border: none;
+    border-radius: 6px;
+    color: #21ba71;
+}
+.bottomcarouselcard div button:hover{
+        background-color: #21ba71;
+    width: 10em;
+    height: 3em;
+    border: none;
+    border-radius: 6px;
+    color: #f4f4f4;
+
+
+}
+
 
 
 
