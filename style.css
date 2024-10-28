@@ -219,7 +219,7 @@
     align-items: end;
     /* padding-bottom: 2em;
     padding-left: 2%; */
-    /* padding:2%; */
+    padding:1%;
     /* gap: 2%; */
     /* min-height: 40%;
     min-width: 10%; */
@@ -242,15 +242,24 @@
     margin-top: 2em;
 }
 .carouselimagecontainer{
-
-    border:2px solid black;
     border-radius: 50%;
-    top: -20%;
-    height:60%;
+    top: -25%;
+    height:63%;
     width:80%;
     background-color: white;
     position: absolute;
+    object-fit: contain;
+    overflow: hidden;
+    box-shadow: 0px 0px 9px;
+    
 }
+.carouselimage{
+    
+    height: 100%;
+    width: 100%;
+
+}
+
 .bottomcarouselcard{
     background-color:rgb(210, 5, 166) ;
     display: flex;
@@ -284,7 +293,7 @@
 
 
 .bottomcarouselcard div button{
-    background-color: #e9f9f1;
+    background-color: #d5f8e6;
     width: 40%;
     height: 2.5em;
     border: none;
@@ -330,8 +339,16 @@
     position: absolute;
     left:-2%;
     top:5%;
-    
+    object-fit: contain;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px;
 }
+.bottomscreenbigimage{
+    width: 100%;
+    height: 100%;
+
+}
+
 .bottonscreencarouselcardinformation{
     background-color: aquamarine;
     height: 90%;
@@ -360,17 +377,30 @@
     border-radius: 1em;
     width: 90%;
     position: relative;
-
+}
+.bottomscreencarouselmini:hover{
+    background-color: black;
+    color: white;
+}
+.bottomscreencarouselmini:hover .carouselminiimagecontainer{
+    box-shadow: 0px 0px 9px #febd2f;
 }
 .carouselminiimagecontainer{
     position: absolute;
     background-color: blue;
-    border: 2px solid black;
+
     height: 80%;
     width: 23%;
     border-radius: 50%;
     left: -12%;
-    top:10%
+    top:10%;
+    overflow: hidden;
+    object-fit: contain;
+    box-shadow: 0px 0px 9px;
+}
+.minicarouselimage{
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -387,10 +417,10 @@
 
 @media(max-width:2159px){
     .carouselimagecontainer{
-    border:2px solid black;
-    border-radius: 50%;
-    top: -20%;
-    height:60%;
+    /* border:2px solid black;
+    border-radius: 50%; */
+    /* top: -25%;
+    height:63%; */
     width:70%;
     }
     .foodcarousel{
