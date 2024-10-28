@@ -312,12 +312,36 @@
     gap:2%
 }
 .bottomscreencarouselcard{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
     background-color: red;
     height: 100%;
     width: 60%;
     border-radius: 1em;
     position: relative;
 }
+.bottomscreencarouselcardimagecontainer{
+    background-color: #21ba71;
+    height: 90%;
+    width: 30%;
+    border-radius: 50%;
+    position: absolute;
+    left:-2%;
+    top:5%;
+    
+}
+.bottonscreencarouselcardinformation{
+    background-color: aquamarine;
+    height: 90%;
+    width: 65%;
+}
+
+
+
+
+
 
 .bottomscreencarouselminicontainer{
     background-color: #febd2f;
@@ -343,7 +367,7 @@
     background-color: blue;
     border: 2px solid black;
     height: 80%;
-    width: 25%;
+    width: 23%;
     border-radius: 50%;
     left: -12%;
     top:10%
@@ -381,6 +405,14 @@
         width: 40%;
         height: 70%;
     }
+.bottomscreencarouselcardimagecontainer{
+    width: 27%;
+    
+}
+
+
+
+
     .carouselminiimagecontainer{
         width: 20%;
 
