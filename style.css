@@ -105,7 +105,7 @@
 .chef{
     bottom:0px;
     left: 0px;
-    width: 95%;
+    height: 52%;
 }
 .rightside{
     display: flex;
@@ -323,7 +323,33 @@
     background-color: #febd2f;
     height: 100%;
     width: 38%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+    gap:4%
+
 }
+.bottomscreencarouselmini{
+    background-color: white;
+    height: 48%;
+    border-radius: 1em;
+    width: 90%;
+    position: relative;
+
+}
+.carouselminiimagecontainer{
+    position: absolute;
+    background-color: blue;
+    border: 2px solid black;
+    height: 80%;
+    width: 25%;
+    border-radius: 50%;
+    left: -12%;
+    top:10%
+}
+
+
 
 
 
@@ -354,6 +380,10 @@
     .bottomcarouselcard div button{
         width: 40%;
         height: 70%;
+    }
+    .carouselminiimagecontainer{
+        width: 20%;
+
     }
 
 }
