@@ -20,11 +20,13 @@
 
 }
 .sidebar{
+    z-index: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height:100%;
     min-width: 15%;
+     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.349) ; 
     /* background-color: var(--accent-color); */
     
 
@@ -45,6 +47,7 @@
 }
 .profileinfo img{
     margin-bottom: -2em;
+    
 }
 .profileinfo h2{
     display: flex;
@@ -71,12 +74,14 @@
     padding-left: 10%;
     width: 80%;
     height: 15%;
-    border: 2px solid #f4f4f4;
+    /* border: 2px solid #f4f4f4; */
+    border: none;
     background: transparent;
     border-radius: 8px;
     color: #afafaf;
     font-size: 100%;
             transition: ease-in .2s;
+             box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.349) ; 
 }
 
 .sidebarnav button:hover{
@@ -86,12 +91,16 @@
     padding-left: 10%;
     width: 80%;
     height: 15%;
-    border: 2px solid #f4f4f4;
+    border: none;
     background: transparent;
     border-radius: 8px;
     background-color: #febd2f;
     color: black;
     font-size: 100%;
+    /* box-shadow: none; */
+    /* box-shadow: 0px 0px 6px #afafaf  ;  */
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.578);
+    
 }
 
 
@@ -159,6 +168,7 @@
     border-radius: 8px;
     overflow: hidden;
     border: 2px solid #febd2f;
+  
 }
 .form input{
     width: 85%;
@@ -201,8 +211,10 @@
     border: 2px solid #d8d8d8;
     background: transparent;
     border-radius: 16px;
+    border: none;
     color: #919191;
         transition: ease-in .2s;
+         box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.349) ; 
    
 
 }
@@ -238,7 +250,7 @@
 
 }
 .carouselcard{
-   
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.349) ; 
     background-color: white;
     height:90%;
     width: 15%;
@@ -355,9 +367,12 @@
     border-radius: 6px;
     color: #21ba71;
          transition: ease-in .2s;
+          box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.349) ; 
 }
 .bottomcarouselcard div button:hover{
         background-color: #21ba71;
+        box-shadow: none  ; 
+        
     width: 40%;
     height: 3em;
     border: none;
@@ -381,6 +396,7 @@
     display: flex;
     justify-content: end;
     align-items: center;
+     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.349) ; 
 
 
     height: 100%;
@@ -489,9 +505,11 @@
     width: 90%;
     position: relative;
          transition: ease-in .2s;
+         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.349) ; 
 }
 .bottomscreencarouselmini:hover{
     background-color: black;
+    box-shadow: none;
     color: white;
 }
 .bottomscreencarouselmini:hover .carouselminiimagecontainer{
