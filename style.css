@@ -427,6 +427,9 @@
     justify-content: space-around;
     padding:20px 0px 20px 0px;
     font-size: larger;
+        height: 90%;
+    width: 65%;
+   
 }
 .bottonscreencarouselcardinformation h1{
     margin-bottom: -3%;
@@ -439,7 +442,11 @@
     text-decoration: none;
     color:#21ba71;
     height: 10%;
+    transition: ease-in-out 0.70;
   
+}
+.bottonscreencarouselcardinformation a:hover{
+    color:orange;
 }
 .arrow{
     height: 50%;
@@ -476,11 +483,8 @@
     height: 55%;
 }
 
-.bottonscreencarouselcardinformation{
- 
-    height: 90%;
-    width: 65%;
-}
+
+
 
 
 
