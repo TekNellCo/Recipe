@@ -34,7 +34,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-   /* outline:1px solid tomato */
+   outline:1px solid tomato
 }
 
 
@@ -758,40 +758,77 @@
 
 
 
-
-@media(max-width:2159px){
-    .carouselimagecontainer{
-    /* border:2px solid black;
-    border-radius: 50%; */
-    /* top: -25%;
-    height:63%; */
-    width:70%;
-    }
-    .foodcarousel{
-        min-height: 40%;
-
-
-    }
-    .carouselcard{
-        width: 20%;
-    }
+@media(max-width:2560px) and (min-height:1440px){
     .bottomcarouselcard div button{
-        width: 40%;
+        width: 50%;
         height: 70%;
+        background-color: pink;
     }
-
-  
- 
+           .carouselimagecontainer{
+            height: 60%;
+width:80%;}
 .bottomscreencarouselcardimagecontainer{
-    width: 27%;
+    width: 35%;
+    
+}
+    .carouselminiimagecontainer{
+        width: 26%;
+
+    }
+    }
+    
+
+@media(max-width:2560px) and (min-height:1600px){
+    .carouselimagecontainer{
+            height: 54%;
+width:80%;}
+        .bottomcarouselcard div button{
+        width: 50%;
+        height: 70%;
+        background-color: red;
+       
+    }
+    .bottomscreencarouselcardimagecontainer{
+    width: 35%;
+    height: 80%;
+    top:10%
+    
+}
+    .carouselminiimagecontainer{
+        width: 30%;
+        left:-18%
+
+    }
     
 }
 
 
+@media(max-width:1920px){
+    .carouselimagecontainer{
 
-
-    .carouselminiimagecontainer{
+    width:70%;
+    
+    }
+    .foodcarousel{
+        min-height: 40%;
+    }
+    .carouselcard{
         width: 20%;
+        
+    }
+    .bottomcarouselcard div button{
+        width: 40%;
+        height: 70%;
+        background-color: #21ba71;
+       
+    }
+.bottomscreencarouselcardimagecontainer{
+    width: 35%;
+
+    
+}
+    .carouselminiimagecontainer{
+        width: 25%;
 
     }
 
