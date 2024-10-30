@@ -637,7 +637,10 @@
 
 }
 .bottomscreencarouselmini{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
     background-color: white;
     height: 48%;
     border-radius: 1em;
@@ -645,6 +648,13 @@
     position: relative;
          transition: ease-in .2s;
          box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.349) ; 
+}
+.fooddescriptionwrapper{
+
+    padding-left: 10%;
+    font-family: var(--text-font);
+    text-align: center;
+    
 }
 
 
