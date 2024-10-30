@@ -89,10 +89,23 @@
     font-family: var(--icon-font);
     
 }
-.profileinfo img{
+
+.profileiconcontainer{
     margin-bottom: -2em;
-    
+    background-color: #21ba71;
+    width: 25%;
+    height: 30%;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 2px solid black;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.546) 
 }
+.profileiconcontainer img{
+    height: 100%;
+    width: 100%;
+}
+
 .profileinfo h2{
     display: flex;
     text-align: center;
