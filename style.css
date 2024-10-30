@@ -34,7 +34,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-   outline:1px solid tomato
+   /* outline:1px solid tomato */
 }
 
 
@@ -58,7 +58,7 @@
     display: flex;
     width: 100%;
     height: 100%;
-
+overflow: hidden;
 }
 .sidebar{
     z-index: 1;
@@ -759,10 +759,35 @@
 
 
 @media(max-width:2560px) and (min-height:1440px){
+       .sidebarnav{
+    font-size: x-large;
+   }
+   .headerbox input{
+    font-size: x-large ;
+   }
+   .foodcategory button{
+    font-size: larger;
+   }
+   .headerright button{
+    font-size: x-large;
+    width: 100%;
+   }
+   .bottomscreencarouselminicontainer{
+    font-size: larger;
+}
+.bottomcarouselcard > p{
+    font-size: x-large;
+    
+}
     .bottomcarouselcard div button{
         width: 50%;
         height: 70%;
-        background-color: pink;
+        /* background-color: pink; */
+        font-size: larger;
+
+    }
+        .bottonscreencarouselcardinformation{
+        font-size: x-large;
     }
            .carouselimagecontainer{
             height: 60%;
@@ -776,23 +801,66 @@ width:80%;}
 
     }
     }
+        .servingcooktime div{
+        width: 100%;
+    }
     
 
+
+    
 @media(max-width:2560px) and (min-height:1600px){
+        .profileiconcontainer{
+        height: 30%;
+        width: 30%;
+    }
+   .sidebarnav{
+    font-size: x-large;
+   }
+   .headerbox input{
+    font-size: x-large ;
+   }
+   .foodcategory button{
+    font-size: larger;
+   }
+   .headerright button{
+    font-size: x-large;
+    width: 100%;
+   }
+   
+
     .carouselimagecontainer{
             height: 54%;
 width:80%;}
+.bottomcarouselcard{
+    font-size: larger;
+}
+
         .bottomcarouselcard div button{
         width: 50%;
         height: 70%;
-        background-color: red;
+        /* background-color: red; */
+        font-size: larger;
        
+    }
+    .bottonscreencarouselcardinformation{
+        font-size: x-large;
+    }
+    .servingcooktime div{
+        width: 45%;
+        
+        
+        display: flex;
+        justify-content: start;
+        
     }
     .bottomscreencarouselcardimagecontainer{
     width: 35%;
     height: 80%;
     top:10%
     
+}
+.bottomscreencarouselminicontainer{
+    font-size: larger;
 }
     .carouselminiimagecontainer{
         width: 30%;
@@ -804,6 +872,12 @@ width:80%;}
 
 
 @media(max-width:1920px){
+    .profileiconcontainer{
+        height: 30%;
+        width: 28%;
+    }
+
+
     .carouselimagecontainer{
 
     width:70%;
@@ -819,8 +893,11 @@ width:80%;}
     .bottomcarouselcard div button{
         width: 40%;
         height: 70%;
-        background-color: #21ba71;
+        /* background-color: #21ba71; */
        
+    }
+    .bottomscreencarouselminicontainer{
+        height: 92%;
     }
 .bottomscreencarouselcardimagecontainer{
     width: 35%;
@@ -830,6 +907,11 @@ width:80%;}
     .carouselminiimagecontainer{
         width: 25%;
 
+    }
+
+    .bottomscreencarouselcard{
+    
+        height: 92%;
     }
 
 }
