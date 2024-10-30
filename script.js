@@ -1,4 +1,7 @@
 let stars = document.querySelectorAll(".fa")
+let miniContainerOne = document.querySelector(".contone")
+let miniContainerTwo = document.querySelector(".conttwo")
+
 
 for (let star of stars){
     star.addEventListener("click",()=>{
@@ -6,3 +9,12 @@ for (let star of stars){
     })
 }
 
+// for(container of miniContainerOne){
+//     container.addEventListener("click",()=>{
+//         container.setAttribute("class", "bottomscreencarouselmini contone outofscreen")
+//     })
+// }
+
+miniContainerOne.addEventListener("click",()=>{
+    miniContainerOne.setAttribute("class","bottomscreencarouselmini contone outofscreen")
+})

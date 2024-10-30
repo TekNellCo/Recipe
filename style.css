@@ -1,9 +1,45 @@
+/* @keyframes slideRight {
+    0%{transform: translate(0);
+
+    }
+    4%,30%{transform: translate(150%)
+
+    }
+    56%,60%{transform: translate(0)
+        
+    }
+    86%,88%{transform: translate(150%)
+
+    }
+} */
+@keyframes slideRight{
+    0%{transform:translate(0)}
+    19.6%{transform: translate(0)}
+    29.4%{transform: translate(150%)}
+    70.56%{transform: translate(150%)}
+    80.36%{transform: translate(0)}
+    99.66%{transform: translate(0)}
+    
+}
+@keyframes slideLeft{
+    0%{transform: translate(0%)}
+    19.6%{transform: translate(0%)}
+    29.4%{transform: translate(-150%)}
+    70.56%{transform: translate(-150%)}
+    80.36%{transform: translate(0%)}
+    99.66%{transform: translate(0%)}
+   
+}
 *, *::before, *::after{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
    /* outline:1px solid tomato */
 }
+
+
+
+
 :root{
     --main-bg-color: #f4f2ee;
     --accent-color:white;
@@ -11,6 +47,7 @@
 .html{
     width: 100%;
     height: 100%;
+    /* overflow: hidden; */
     
 }
 .body{
@@ -499,10 +536,31 @@
     flex-direction: column;
     align-items: end;
 
+    position: relative;
+    border-radius: 1em;
+
+   
+
+    gap:4%
+
+}
+.containerabove{
+   
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    left:135%;
+    
+    position: absolute;
+
     gap:4%
 
 }
 .bottomscreencarouselmini{
+
     background-color: white;
     height: 48%;
     border-radius: 1em;
@@ -511,6 +569,14 @@
          transition: ease-in .2s;
          box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.349) ; 
 }
+
+
+.outofscreen{
+    
+    left:80%
+
+}
+
 .bottomscreencarouselmini:hover{
     background-color: black;
     box-shadow: none;
@@ -535,6 +601,46 @@
 .minicarouselimage{
     width: 100%;
     height: 100%;
+}
+
+.contone{
+ 
+    animation-name: slideRight;
+    animation-duration: 20s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+}
+.conttwo{
+    animation-name: slideRight;
+    animation-duration: 20s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 8036ms;
+    animation-fill-mode: both;
+}
+.contoneover{
+    
+    position: absolute;
+    animation-name: slideLeft;
+    animation-duration: 20s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+}
+.conttwoover{
+        
+    position: absolute;
+    animation-name: slideLeft;
+    animation-duration: 20s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 8036ms;
+    animation-fill-mode: both;
+    bottom:0%;
+
 }
 
 
