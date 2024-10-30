@@ -41,6 +41,9 @@
 
 
 :root{
+    --header-font: "Playwrite GB S", cursive;
+    --icon-font:"Style Script", cursive;
+    --text-font:"Literata", serif;
     --main-bg-color: #f4f2ee;
     --accent-color:white;
 }
@@ -79,7 +82,9 @@
   
 }
 .profileinfo h1{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+    scale: 1.5;
+    font-family: var(--icon-font);
     
 }
 .profileinfo img{
@@ -89,10 +94,12 @@
 .profileinfo h2{
     display: flex;
     text-align: center;
-    margin-top: 2em;
+    margin-top: 10%;
+    font-family: var(--text-font);
 }
 .profileinfo p{
     color:#919191;
+    font-family: var(--header-font);
 }
 .sidebarnav{
     padding-top: 25%;
@@ -105,6 +112,7 @@
 
 }
 .sidebarnav button{
+    font-family: var(--header-font);
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -168,6 +176,9 @@
     width: 85%;
     /* padding-left: 0.5em; */
 }
+.rightside h1{
+   font-family: var(--header-font);
+}
 .header{
     min-height: 24%;
     height: 24%;
@@ -207,7 +218,9 @@
     border: 2px solid #febd2f;
   
 }
+
 .form input{
+    font-family: var(--header-font);
     width: 85%;
     border: none;
     height: 100%;
@@ -238,11 +251,13 @@
     display: flex;
     flex-direction: row;
     justify-content:space-between;
+    
 
 
 }
 
 .foodcategory button{
+    font-family: var(--header-font);
     width: 15%;
     height: 100%;
     border: 2px solid #d8d8d8;
@@ -270,6 +285,7 @@
 
 }
 .foodcarousel{
+    font-family: var(--header-font);
   
     display: flex;
     justify-content: space-evenly;
@@ -394,9 +410,12 @@
         color:orange;
         scale: 1.3;
     }
-
+.bottomcarouselcard div p{
+    font-family: var(--header-font);
+}
 
 .bottomcarouselcard div button{
+    font-family: var(--header-font);
     background-color: #d5f8e6;
     width: 40%;
     height: 3em;
@@ -458,6 +477,7 @@
     height: 100%;
 }
 .bottonscreencarouselcardinformation{
+    font-family: var(--text-font);
     display: flex;
     flex-direction: column;
     padding-right: 5%;
@@ -470,6 +490,7 @@
 }
 .bottonscreencarouselcardinformation h1{
     margin-bottom: -3%;
+
 
 }
 .bottonscreencarouselcardinformation a{
