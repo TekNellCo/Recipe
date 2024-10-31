@@ -1,262 +1,344 @@
 <!DOCTYPE html>
 <html class="html" lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script defer src="script.js" ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Style+Script&display=swap" rel="stylesheet">
-</head>
-<body class="body" localhost:5500>
-
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Style+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body" localhost:5500>
     <div class="sidebar">
-        <div class="profileinfo">
-            <h1>Cheflie</h1>
-           
-             <div class="profileiconcontainer"><img src="./images/avatar.jpg" alt="profile avatar"></div>
-            <h2>Nelson Cardona</h2>
-            <p>Home chef</p>
+      <div class="profileinfo">
+        <h1>Cheflie</h1>
+
+        <div class="profileiconcontainer">
+          <img src="./images/avatar.jpg" alt="profile avatar" />
         </div>
-        <div class="sidebarnav">
-            <button class="sbbtn"><img src="./images/recipe.svg" alt="recipe icon"> &nbsp;&nbsp;Recipes</button>
-            <button><img src="./images/favorite.svg" alt="favorite icon">&nbsp;&nbsp;Favorites</button>
-            <button><img src="./images/video.svg" alt="courses icon">&nbsp;&nbsp;Courses</button>
-            <button><img src="./images/people.svg" alt="community icon">&nbsp;&nbsp;Community</button>
-        </div>
-        <div class="bottomsidebar">
-            <img class="chef" src="./images/cooking.png" alt="image of chef">
-        </div>
+        <h2>Nelson Cardona</h2>
+        <p>Home chef</p>
+      </div>
+      <div class="sidebarnav">
+        <button class="sbbtn">
+          <img src="./images/recipe.svg" alt="recipe icon" />
+          &nbsp;&nbsp;Recipes
+        </button>
+        <button>
+          <img
+            src="./images/favorite.svg"
+            alt="favorite icon"
+          />&nbsp;&nbsp;Favorites
+        </button>
+        <button>
+          <img src="./images/video.svg" alt="courses icon" />&nbsp;&nbsp;Courses
+        </button>
+        <button>
+          <img
+            src="./images/people.svg"
+            alt="community icon"
+          />&nbsp;&nbsp;Community
+        </button>
+      </div>
+      <div class="bottomsidebar">
+        <img class="chef" src="./images/cooking.png" alt="image of chef" />
+      </div>
     </div>
     <div class="rightside">
-        <div class="header">
-            <div class="headerleft">
-                                        
-                <div class="headerbox">
-                    <form class="form" action="#">
-                        <input type="text" placeholder="Search.." name="search">
-                        <button class="searchbutton"><img class="searchimage" src="./images/search.svg" alt="search bar button"></button>
-</form>
+      <div class="header">
+        <div class="headerleft">
+          <div class="headerbox">
+            <form class="form" action="#">
+              <input type="text" placeholder="Search.." name="search" />
+              <button class="searchbutton">
+                <img
+                  class="searchimage"
+                  src="./images/search.svg"
+                  alt="search bar button"
+                />
+              </button>
+            </form>
 
-                    <h1>Learn, Cook, & Eat your food</h1>
-                    <div class="foodcategory">
-                        <button>Beef</button>
-                        <button>Chicken</button>
-                        <button>Rice</button>
-                        <button>Pasta</button>
-                        <button>Other</button>
-                    </div>
-                </div>
+            <h1>Learn, Cook, & Eat your food</h1>
+            <div class="foodcategory">
+              <button>Beef</button>
+              <button>Chicken</button>
+              <button>Rice</button>
+              <button>Pasta</button>
+              <button>Other</button>
             </div>
-            <div class="headerright">
-                <img src="./images/settings.svg" alt="">
-                <button>Premium<svg width="800px" height="800px" viewBox="0 -6.5 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    
-    <title>right-arrow</title>
-    <desc>Created with Sketch.</desc>
-    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ui-gambling-website-lined-icnos-casinoshunter" transform="translate(-212.000000, -159.000000)" fill="currentcolor" fill-rule="nonzero">
-            <g id="square-filled" transform="translate(50.000000, 120.000000)">
-                <path d="M187.108012,39.2902857 L197.649804,49.7417043 L197.708994,49.7959169 C197.889141,49.9745543 197.986143,50.2044182 198,50.4382227 L198,50.5617773 C197.986143,50.7955818 197.889141,51.0254457 197.708994,51.2040831 L197.6571,51.2479803 L187.108012,61.7097143 C186.717694,62.0967619 186.084865,62.0967619 185.694547,61.7097143 C185.30423,61.3226668 185.30423,60.6951387 185.694547,60.3080911 L194.702666,51.3738496 L162.99947,51.3746291 C162.447478,51.3746291 162,50.9308997 162,50.3835318 C162,49.8361639 162.447478,49.3924345 162.99947,49.3924345 L194.46779,49.3916551 L185.694547,40.6919089 C185.30423,40.3048613 185.30423,39.6773332 185.694547,39.2902857 C186.084865,38.9032381 186.717694,38.9032381 187.108012,39.2902857 Z M197.115357,50.382693 L186.401279,61.0089027 L197.002151,50.5002046 L197.002252,50.4963719 L196.943142,50.442585 L196.882737,50.382693 L197.115357,50.382693 Z" id="right-arrow">
-
-</path>
-            </g>
-        </g>
-    </g>
-</svg> </button>
-                <svg>
-                    <use></use>
-                </svg>
-
-
-
-
-
-
-
-
-
-            </div>
+          </div>
         </div>
-    <div class="foodcarousel">
-            <div class="carouselcard">
-                <div class="carouselimagecontainer">
-                    <img class="carouselimage" src="./images/smash burgers.png" alt="picture of smash burger">
-                </div>
-                <div class="bottomcarouselcard">
-                    <p >Smash Burgers</p>
-                    <div class="ratingswrapper">
-<div class="ratings">
-    <span data-rating="5" class="fa fa-star "></span>
-    <span data-rating="4" class="fa fa-star "></span>
-    <span data-rating="3" class="fa fa-star "></span>
-    <span data-rating="2" class="fa fa-star"></span>
-    <span data-rating="1" class="fa fa-star"></span>
-</div>
-</div>
-                    <hr>
-                    <div>
-                        <p>20 minutes</p>
-                        <button>View Recipe</button>
-                    </div>
-                </div>
-            </div>    
-            <div class="carouselcard">
-                <div class="carouselimagecontainer">
-                    <img class="carouselimage" src="./images/steak.png" alt="picture of steak">
-                </div>
-                <div class="bottomcarouselcard">
-                    <p>Montreal Steak</p>
-                    <div class="ratingswrapper">
-<div class="ratings">
-    <span data-rating="5" class="fa fa-star "></span>
-    <span data-rating="4" class="fa fa-star "></span>
-    <span data-rating="3" class="fa fa-star "></span>
-    <span data-rating="2" class="fa fa-star"></span>
-    <span data-rating="1" class="fa fa-star"></span>
-</div>
-</div>
-                    <hr>
-                    <div>
-                        <p>20 minutes</p>
-                        <button>View Recipe</button>
-                    </div>
-                </div>
-            </div>
-            <div class="carouselcard">
-                <div class="carouselimagecontainer">
-                    <img class="carouselimage" src="./images/ribs.png" alt="picture of ribs">
-                </div>
-                <div class="bottomcarouselcard">
-                    <p>St Louis Ribs</p>
-                    <div class="ratingswrapper">
-<div class="ratings">
-    <span data-rating="5" class="fa fa-star "></span>
-    <span data-rating="4" class="fa fa-star "></span>
-    <span data-rating="3" class="fa fa-star "></span>
-    <span data-rating="2" class="fa fa-star"></span>
-    <span data-rating="1" class="fa fa-star"></span>
-</div>
-</div>
-                    <hr>
-                    <div>
-                        <p>20 minutes</p>
-                        <button>View Recipe</button>
-                    </div>
-                </div>
-            </div>    
-            <div class="carouselcard">
-                <div class="carouselimagecontainer">
-                    <img class="carouselimage" src="./images/nachos.png" alt="picture of nachos">
-                </div>
-                <div class="bottomcarouselcard">
-                    <p>Nachos</p>
-                    <div class="ratingswrapper">
-<div class="ratings">
-    <span data-rating="5" class="fa fa-star "></span>
-    <span data-rating="4" class="fa fa-star "></span>
-    <span data-rating="3" class="fa fa-star "></span>
-    <span data-rating="2" class="fa fa-star"></span>
-    <span data-rating="1" class="fa fa-star"></span>
-</div>
-</div>
-                    <hr>
-                    <div>
-                        <p>20 minutes</p>
-                        <button>View Recipe</button>
-                    </div>
-                </div>
-            </div>    
-    </div>
-<div class="bottomcarousel">
-    <div class="bottomscreencarouselcard">
-        <div class="bottomscreencarouselcardimagecontainer">
-            <img src="./images/chickenalfredo.png" alt="picture of chicken alfredo" class="bottomscreenbigimage">
+        <div class="headerright">
+          <img src="./images/settings.svg" alt="" />
+          <button>
+            Premium<svg
+              width="800px"
+              height="800px"
+              viewBox="0 -6.5 36 36"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <title>right-arrow</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="icons"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="ui-gambling-website-lined-icnos-casinoshunter"
+                  transform="translate(-212.000000, -159.000000)"
+                  fill="currentcolor"
+                  fill-rule="nonzero"
+                >
+                  <g
+                    id="square-filled"
+                    transform="translate(50.000000, 120.000000)"
+                  >
+                    <path
+                      d="M187.108012,39.2902857 L197.649804,49.7417043 L197.708994,49.7959169 C197.889141,49.9745543 197.986143,50.2044182 198,50.4382227 L198,50.5617773 C197.986143,50.7955818 197.889141,51.0254457 197.708994,51.2040831 L197.6571,51.2479803 L187.108012,61.7097143 C186.717694,62.0967619 186.084865,62.0967619 185.694547,61.7097143 C185.30423,61.3226668 185.30423,60.6951387 185.694547,60.3080911 L194.702666,51.3738496 L162.99947,51.3746291 C162.447478,51.3746291 162,50.9308997 162,50.3835318 C162,49.8361639 162.447478,49.3924345 162.99947,49.3924345 L194.46779,49.3916551 L185.694547,40.6919089 C185.30423,40.3048613 185.30423,39.6773332 185.694547,39.2902857 C186.084865,38.9032381 186.717694,38.9032381 187.108012,39.2902857 Z M197.115357,50.382693 L186.401279,61.0089027 L197.002151,50.5002046 L197.002252,50.4963719 L196.943142,50.442585 L196.882737,50.382693 L197.115357,50.382693 Z"
+                      id="right-arrow"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </button>
+          <svg>
+            <use></use>
+          </svg>
         </div>
-        <div class="bottonscreencarouselcardinformation">
+      </div>
+      <div class="foodcarousel">
+        <div class="carouselcard">
+          <div class="carouselimagecontainer">
+            <img
+              class="carouselimage"
+              src="./images/smash burgers.png"
+              alt="picture of smash burger"
+            />
+          </div>
+          <div class="bottomcarouselcard">
+            <p>Smash Burgers</p>
+            <div class="ratingswrapper">
+              <div class="ratings">
+                <span data-rating="5" class="fa fa-star"></span>
+                <span data-rating="4" class="fa fa-star"></span>
+                <span data-rating="3" class="fa fa-star"></span>
+                <span data-rating="2" class="fa fa-star"></span>
+                <span data-rating="1" class="fa fa-star"></span>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <p>20 minutes</p>
+              <button>View Recipe</button>
+            </div>
+          </div>
+        </div>
+        <div class="carouselcard">
+          <div class="carouselimagecontainer">
+            <img
+              class="carouselimage"
+              src="./images/steak.png"
+              alt="picture of steak"
+            />
+          </div>
+          <div class="bottomcarouselcard">
+            <p>Montreal Steak</p>
+            <div class="ratingswrapper">
+              <div class="ratings">
+                <span data-rating="5" class="fa fa-star"></span>
+                <span data-rating="4" class="fa fa-star"></span>
+                <span data-rating="3" class="fa fa-star"></span>
+                <span data-rating="2" class="fa fa-star"></span>
+                <span data-rating="1" class="fa fa-star"></span>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <p>20 minutes</p>
+              <button>View Recipe</button>
+            </div>
+          </div>
+        </div>
+        <div class="carouselcard">
+          <div class="carouselimagecontainer">
+            <img
+              class="carouselimage"
+              src="./images/ribs.png"
+              alt="picture of ribs"
+            />
+          </div>
+          <div class="bottomcarouselcard">
+            <p>St Louis Ribs</p>
+            <div class="ratingswrapper">
+              <div class="ratings">
+                <span data-rating="5" class="fa fa-star"></span>
+                <span data-rating="4" class="fa fa-star"></span>
+                <span data-rating="3" class="fa fa-star"></span>
+                <span data-rating="2" class="fa fa-star"></span>
+                <span data-rating="1" class="fa fa-star"></span>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <p>20 minutes</p>
+              <button>View Recipe</button>
+            </div>
+          </div>
+        </div>
+        <div class="carouselcard">
+          <div class="carouselimagecontainer">
+            <img
+              class="carouselimage"
+              src="./images/nachos.png"
+              alt="picture of nachos"
+            />
+          </div>
+          <div class="bottomcarouselcard">
+            <p>Nachos</p>
+            <div class="ratingswrapper">
+              <div class="ratings">
+                <span data-rating="5" class="fa fa-star"></span>
+                <span data-rating="4" class="fa fa-star"></span>
+                <span data-rating="3" class="fa fa-star"></span>
+                <span data-rating="2" class="fa fa-star"></span>
+                <span data-rating="1" class="fa fa-star"></span>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <p>20 minutes</p>
+              <button>View Recipe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottomcarousel">
+        <div class="bottomscreencarouselcard">
+          <div class="bottomscreencarouselcardimagecontainer">
+            <img
+              src="./images/chickenalfredo.png"
+              alt="picture of chicken alfredo"
+              class="bottomscreenbigimage"
+            />
+          </div>
+          <div class="bottonscreencarouselcardinformation">
             <h1>Blackened Chicken Alfredo</h1>
-            <p>This Blackened Chicken Alfredo is quick, easy and restaurant delicious!  It boasts everything you love about traditional chicken Alfredo, but with a Cajun infused twist!</p>
+            <p>
+              This Blackened Chicken Alfredo is quick, easy and restaurant
+              delicious! It boasts everything you love about traditional chicken
+              Alfredo, but with a Cajun infused twist!
+            </p>
             <div class="servingcooktime">
-                <div class="servingtime"><img src="./images/serving time.svg" alt="serving size image"><p>Serving - 4</p></div>
-                <div class="cooktime"><img src="./images/cook.svg" alt="cook time image"><p>Cook Time 1 Hour 20 min</p></div>
+              <div class="servingtime">
+                <img src="./images/serving time.svg" alt="serving size image" />
+                <p>Serving - 4</p>
+              </div>
+              <div class="cooktime">
+                <img src="./images/cook.svg" alt="cook time image" />
+                <p>Cook Time 1 Hour 20 min</p>
+              </div>
             </div>
-            <a href="#">Get the Recipe <img src="./images/arrow.svg" alt="arrow link" class="arrow"></a>
-
+            <a href="#"
+              >Get the Recipe
+              <img src="./images/arrow.svg" alt="arrow link" class="arrow"
+            /></a>
+          </div>
         </div>
-
-    </div>
 
         <div class="bottomscreencarouselminicontainer">
-            <div class="bottomscreencarouselmini contone">
-                <div class="carouselminiimagecontainer">
-                    <img src="./images/ramen.png" alt="picture of ramen" class="minicarouselimage">
-                </div>
-                <div class="fooddescriptionwrapper">
-                    <h1>Ramen Noodles</h1>
-                    <p>Take the usual ramen up a notch with this quick homemade ramen. Fresh veggies and herbs make this extra delicious, healthy, and cozy!</p>
-                </div>
+          <div class="bottomscreencarouselmini contone">
+            <div class="carouselminiimagecontainer">
+              <img
+                src="./images/ramen.png"
+                alt="picture of ramen"
+                class="minicarouselimage"
+              />
             </div>
-            
-            <div class="bottomscreencarouselmini conttwo"><div class="carouselminiimagecontainer">
-                <img src="./images/padthai.png" alt="picture of ramen" class="minicarouselimage">
+            <div class="fooddescriptionwrapper">
+              <h1>Ramen Noodles</h1>
+              <p>
+                Take the usual ramen up a notch with this quick homemade ramen.
+                Fresh veggies and herbs make this extra delicious, healthy, and
+                cozy!
+              </p>
             </div>
-        <div class="fooddescriptionwrapper">
-                    <h1>Pad Thai</h1>
-                    <p>This amazing Pad Thai recipe is easy and comes together in under 30 minutes. It starts with fresh ingredients including rice noodles, chicken, shrimp, tofu, peanuts, scrambled eggs, and fresh vegetables all tossed together in a delicious homemade pad thai sauce.</p>
-                </div></div>
-            <div class="containerabove">
-                <div class="bottomscreencarouselmini conttwoover">
-                    <div class="carouselminiimagecontainer">
-                        <img src="./images/lo mein.png" alt="picture of ramen" class="minicarouselimage">
-                    </div>
-                    <div class="fooddescriptionwrapper">
-                    <h1>Lo Mein</h1>
-                    <p>Slippery Lo Mein Noodles tossed in a Lo Mein Sauce with tons of veggies and protein of your choice. This takeout mainstay comes down to the right sauce and the right noodles – then you’re just 6 minutes away from noodle heaven!</p>
-                </div>
-                </div>
-                <div class="bottomscreencarouselmini contoneover">
-                    <div class="carouselminiimagecontainer">
-                        <img src="./images/chickenfriedrice.png" alt="picture of ramen" class="minicarouselimage">
-                    </div>
-                    <div class="fooddescriptionwrapper">
-                    <h1>Chicken Fried Rice</h1>
-                    <p>Chicken Fried Rice is one of the best weeknight dinners around! It’s a homemade version of my favorite take-out classic. We all had that ham fried rice growing up but move over ham because the chicken variation is 100 times better!</p>
-                </div>
-                </div>
+          </div>
+
+          <div class="bottomscreencarouselmini conttwo">
+            <div class="carouselminiimagecontainer">
+              <img
+                src="./images/padthai.png"
+                alt="picture of ramen"
+                class="minicarouselimage"
+              />
             </div>
-            
-                
+            <div class="fooddescriptionwrapper">
+              <h1>Pad Thai</h1>
+              <p>
+                This amazing Pad Thai recipe is easy and comes together in under
+                30 minutes. It starts with fresh ingredients including rice
+                noodles, chicken, shrimp, tofu, peanuts, scrambled eggs, and
+                fresh vegetables all tossed together in a delicious homemade pad
+                thai sauce.
+              </p>
             </div>
-        
+          </div>
+          <div class="containerabove">
+            <div class="bottomscreencarouselmini conttwoover">
+              <div class="carouselminiimagecontainer">
+                <img
+                  src="./images/lo mein.png"
+                  alt="picture of ramen"
+                  class="minicarouselimage"
+                />
+              </div>
+              <div class="fooddescriptionwrapper">
+                <h1>Lo Mein</h1>
+                <p>
+                  Slippery Lo Mein Noodles tossed in a Lo Mein Sauce with tons
+                  of veggies and protein of your choice. This takeout mainstay
+                  comes down to the right sauce and the right noodles – then
+                  you’re just 6 minutes away from noodle heaven!
+                </p>
+              </div>
+            </div>
+            <div class="bottomscreencarouselmini contoneover">
+              <div class="carouselminiimagecontainer">
+                <img
+                  src="./images/chickenfriedrice.png"
+                  alt="picture of ramen"
+                  class="minicarouselimage"
+                />
+              </div>
+              <div class="fooddescriptionwrapper">
+                <h1>Chicken Fried Rice</h1>
+                <p>
+                  Chicken Fried Rice is one of the best weeknight dinners
+                  around! Its a homemade version of my favorite take-out
+                  classic. We all had that ham fried rice growing up but move
+                  over ham because the chicken variation is 100 times better!
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-</div>
-
-
-    
-    
-
-
-
-</body>
+      </div>
+    </div>
+  </body>
 </html>
-
-
-
